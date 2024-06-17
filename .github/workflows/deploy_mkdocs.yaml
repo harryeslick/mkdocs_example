@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs
-          pip install mkdocs-material mkdocstrings
+          pip install mkdocs-material mkdocstrings mkdocs-jupyter pymdown-extensions
           pip install geodatasets geopandas plotly
           pip install mkdocstrings
 
