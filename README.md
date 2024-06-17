@@ -2,12 +2,19 @@
 
 a small  package for demonstration the features of Mkdocs for python package documentation
 
-## method
 
-- create a python package
-- initialise mkdocs
-    `mkdocs new .`
-  - this creates a `./docs/` folder and `mkdocs.yaml`
-- edit the `mkdocs.yaml` to configure your docs site. 
-- `mkdocs.yaml` is used by `mkdocs build` to create your site using the `.md` files located in `./docs/`
-- 
+## mkdocs commands
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+## reference links
+https://realpython.com/python-project-documentation-with-mkdocs/#insert-information-from-docstrings
+https://jupytext.readthedocs.io/en/latest/index.html
+https://mkdocs-jupyter.danielfrg.com
+https://github.com/marketplace/actions/deploy-mkdocs#building-with-github_token
+https://github.com/mhausenblas/mkdocs-template
