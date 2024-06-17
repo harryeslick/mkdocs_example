@@ -1,6 +1,9 @@
 # mkdocs_example
 
-a (small package)[] for demonstration the features of Mkdocs for python package documentation
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?style=flat-square&logo=github)](https://github.com/harryeslick/mkdocs_example)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green?style=flat-square&logo=github)](https://harryeslick.github.io/mkdocs_example/)
+
+a small package for demonstration the features of `mkdocs` for python package documentation
 
 
 ## mkdocs commands

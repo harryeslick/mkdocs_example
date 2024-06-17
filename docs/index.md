@@ -15,3 +15,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## reference links
+
+https://realpython.com/python-project-documentation-with-mkdocs/#insert-information-from-docstrings
+https://jupytext.readthedocs.io/en/latest/index.html
+https://mkdocs-jupyter.danielfrg.com
+https://github.com/marketplace/actions/deploy-mkdocs#building-with-github_token
+https://github.com/mhausenblas/mkdocs-template

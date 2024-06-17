@@ -18,12 +18,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install docs dependencies
         run: |
           pip install mkdocs
           pip install mkdocs-material mkdocstrings mkdocs-jupyter pymdown-extensions
-          pip install geodatasets geopandas plotly folium matplotlib mapclassify
           pip install mkdocstrings-python
+
+
+      - name: Install package dependencies
+        run: |
+          pip install geodatasets geopandas plotly folium matplotlib mapclassify
 
       - name: Deploy
         run: |
