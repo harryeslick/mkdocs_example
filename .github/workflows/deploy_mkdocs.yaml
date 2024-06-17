@@ -23,7 +23,7 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material mkdocstrings mkdocs-jupyter pymdown-extensions
           pip install geodatasets geopandas plotly
-          pip install mkdocstrings
+          pip install mkdocstrings-python
 
       - name: Deploy
         run: |
