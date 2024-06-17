@@ -16,6 +16,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+## Deployment
+### AWS Amplify
+
+
 ## reference links
 
 https://realpython.com/python-project-documentation-with-mkdocs/#insert-information-from-docstrings
