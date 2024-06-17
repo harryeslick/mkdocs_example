@@ -23,6 +23,7 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material mkdocstrings
           pip install geodatasets geopandas plotly
+          pip install mkdocstrings
 
       - name: Deploy
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
